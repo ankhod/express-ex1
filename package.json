@@ -1,0 +1,33 @@
+{
+  "name": "express-ex1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankhod/express-ex1.git"
+  },
+  "keywords": [],
+  "author": "Andrii-Khodakovskyi <ankhod@ukr.net>",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ankhod/express-ex1/issues"
+  },
+  "homepage": "https://github.com/ankhod/express-ex1#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
